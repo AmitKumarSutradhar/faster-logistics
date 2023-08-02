@@ -1,0 +1,21 @@
+.theme-primary-bg-color{background-color: #FF4800;}
+.theme-primary-text-color{color: #FF4800;}
+.theme-secondary-bg-color{background-color: #1F1F2E;}
+.theme-secondary-text-color{color: #1F1F2E;}
+
+.hero{
+    height: 480px;
+    background-image: url(../images/header.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-blend-mode: overlay;
+}
+/* .hero:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.5);
+  } */
